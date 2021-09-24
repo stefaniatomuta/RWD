@@ -1,0 +1,126 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+#all-pic
+{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+#left
+{
+    float:left;
+    margin-right: 50px;
+    width:45%;
+    
+}
+#right
+{
+    float:left;
+    width:45%;
+}
+.animals
+{
+    height: 270px;
+    margin:20px;
+}
+#gir 
+{
+    border: 25px solid #F08080;
+    background-color:salmon;
+}
+#croco
+{
+    background-color:cadetblue; 
+    border: 25px solid #588AF9;
+}
+
+#ele
+{
+    background-color: cornflowerblue;
+    border: 25px solid #588AF4;
+  
+}
+#tiger1
+{
+   border: 25px solid #F08080;
+    background-color: darksalmon;
+    
+}
+#all-animals
+{
+   
+    background-color:snow;
+    
+    
+}
+.animal_main
+{
+    height:200px;
+    float:left;
+    clear:both;
+    
+   margin-right: 20px;
+    /*margin-bottom:20px;*/
+    
+}
+
+#image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAEBD7;
+    width: 100%;
+    height: 800px;
+    
+   /* align-items: flex-start;*/
+   
+    
+}
+#image-container img 
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+#cheetah-pic {
+    border: 5px solid #90EE90;
+    left: 250px;
+    top: 185px;
+    z-index: 2;
+}
+
+#hippopotamus-pic {
+    border: 5px solid #20B2AA;
+    left: 150px;
+    top: 25px;
+    z-index: 3;
+}
+
+#lion-pic {
+    border: 5px solid #E9967A;
+    left: 25px;
+    top: 200px;
+    z-index: 1;
+}
+
+#ostrich-pic {
+    border: 5px solid #9370DB;
+    right: 75px;
+    top: 40px;
+    z-index: 4;
+}
+
+#zebra-pic {
+    border: 5px solid #ff82a8;
+    right: 200px;
+    top: 175px;
+    z-index: 2;
+}
